@@ -1,0 +1,12 @@
+body{
+    font-family: Indie Flower, cursive;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-weight: 1000;
+    font-family: Roboto, sans-serif;
+}

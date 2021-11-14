@@ -1,0 +1,19 @@
+section{
+    width:500px;
+    height:800px;
+    background-color: rebeccapurple;
+}
+#rgba{
+   width: 50%;
+   height: 50%;
+ /*   background-color: rgba(255,90,20,0.8);
+ or */
+   background-color:#00cca0b9;
+}
+
+#Opatity{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255,255,150);
+    opacity: 0.5;
+ }

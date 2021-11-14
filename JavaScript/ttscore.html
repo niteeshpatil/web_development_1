@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <style>
+        .winner {
+            color: green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                TT Score Keeper
+                            </p>
+                            <button class="card-header-icon" aria-label="more options">
+
+                            </button>
+                        </header>
+                        <figure class="image image is-2by1">
+                            <img
+                                src="https://previews.123rf.com/images/nomadsoul1/nomadsoul11706/nomadsoul1170600298/80759859-two-tennis-rackets-and-ball-against-net-on-table.jpg">
+                        </figure>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="p1score">0</span> to <span id="p2score">0</span></h1>
+                                <p class="subtitle">
+                                <div class="field">
+                                    <label for="Playto" class="label is-large is-inline ">Play For</label>
+
+                                    <div class="select is-rounded">
+                                        <select id="Playto">
+                                            <option value="5">5</option>
+                                            <option value="11">11</option>
+                                            <option value="15">15</option>
+                                            <option value="21">21</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                </p>
+
+                            </div>
+                        </div>
+                        <footer class=" card-footer">
+                            <button id="p1Button" class="button card-footer-item is-info is-rounded">1st
+                                player</button>
+                            <button id="p2Button" class="button card-footer-item is-warning is-rounded">2nd
+                                Player</button>
+                            <button id="Reset" class="button card-footer-item is-danger is-rounded">Reset</button>
+
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="D:\workspace\udamywebdev\JavaScript\ttscore.js"></script>
+</body>
+
+</html>

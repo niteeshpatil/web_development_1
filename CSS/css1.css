@@ -1,0 +1,28 @@
+/* text deleration in css */
+h1{
+    text-align: center;
+    color:rgb(247, 236, 89) ;
+    font-weight:normal;
+    text-decoration: underline;
+    background-color: rgb(247, 35, 35);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+p{
+    text-align: left;
+    color:rgb(75, 178, 226);
+    line-height: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color:rgb(247, 236, 89);
+}
+body{
+    background-color: black;
+}
+/* to remove under line on links */
+    a{
+        text-decoration:none;
+        color: seashell;
+    }
+ 

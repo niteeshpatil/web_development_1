@@ -1,0 +1,57 @@
+html{
+    font-size: 20px;
+}
+section{
+    background-color: khaki;
+    width:inherit;
+    height:1000px;
+}
+div{
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+}
+h1{
+    font-size:40px;
+    border: 1px solid blue;
+    line-height:200%;
+    text-align: center;
+     background-color: burlywood;
+}
+article{
+    font-size: 20px;
+}
+/* h2 will be 2 times biger then the its parent artical size */
+h2{
+    font-size: 2em;
+}
+/* h3 also chages acording to artical size whoch is parent */
+h3{
+    font-size: 1.5em;
+    margin: 1em;
+}
+p{
+    margin-left: 2em;
+}
+/* em relative size */
+button{
+    font-size: 1em;
+    border-radius: 30px;
+    background-color: lawngreen ;
+    color:cornflowerblue;
+    
+}
+button:hover{
+   color:black;
+}
+button:active{
+    color:coral;
+}
+
+#parent{
+    font-size: 10em;
+}
+
+#parent ul{
+    font-size:1rem;
+}

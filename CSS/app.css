@@ -1,0 +1,20 @@
+h2{
+    color: #ff0000;
+    background-color: wheat;
+}
+
+button{
+    color: rgb(223, 226, 17);
+    background-color:#f000b4;
+}
+
+p{
+    color:indigo;
+    background-color: rgb(149, 255, 149);
+    /* rgb is pick from  rgb piker color*/
+}
+body{
+    background-color: #000000;
+}
+/* hexadecimal colour #rrggbb code form  is to store colour code in short form */
+/* https://www.w3schools.com/colors/colors_picker.asp */

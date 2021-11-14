@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+
+</head>
+
+<body>
+    <!-- form represents a document section containing intractive controls for submitting information -->
+    <h1>Form</h1>
+    <form action="/tocos">
+        <!-- INPUT  -->
+        <p> <label for="Username">Enter a Username:</label>
+            <input id="Username" type="text" placeholder="Username" name="name">
+        </p>
+        <p> <label for="password">Enter password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p> <label for="color">Choice the coulor You like</label>
+            <input id="color" type="color" name="Coluar">
+        </p>
+        <p> <label for="key">Enter the Key</label>
+            <input id="key" type="number" placeholder="key code number" name="Key" min="0" max="1000" step="50">
+        </p>
+        <p> <label for="time">Enter Time</label>
+            <input id="time" type="time" name="Time">
+        </p>
+        <button>Submit</button>
+        <!-- button to submit form in side the form -->
+    </form>
+    <hr>
+    <br></br>
+    <h2>Search</h2>
+    <form action="https://www.google.com/search?">
+        <h3>google</h3>
+        <input id="Search" type="text" name="q">
+        <button>search google</button>
+    </form>
+    <h3>youtube</h3>
+    <form action="https://www.youtube.com/results?">
+        <!-- up to qution mark past it on action  -->
+        <input id="search" type="text" name="search_query">
+        <!-- give name as q or search_query depend on website -->
+        <button>search youtube</button>
+    </form>
+    <br>
+    <form>
+        <!-- url  -->
+        <label for="url">which websit you want to use</label>
+        <input type="url" name="url" id="url">
+    </form>
+    <hr>
+    <form action="/hello">
+        <h3>Order Your Meal</h3>
+        <br>
+        <p>
+        <h4>Witch part of India</h4>
+        <!-- radio is to select for multipal option to choice one  -->
+        <label for="NE">North East</label>
+        <input type="radio" name="Location" id="NE" value="NE">
+        <label for="NW">North West</label>
+        <input type="radio" name="Location" id="NW" value="NW">
+        <label for="SE">South East</label>
+        <input type="radio" name="Location" id="SE" value="SE">
+        <label for="SW">South West</label>
+        <input type="radio" name="Location" id="SW" value="SW">
+        </p>
+        <p>
+            <select name="meal" id="meal">
+                <option value="veg">veg</option>
+                <option value="nonveg">nonveg</option>
+                <option value="Cooldricks">Cooldrinks</option>
+            </select>
+        </p>
+        <p>
+            <label for="cost">Cost</label>
+            <input type="range" id="cost" name="cost" min="100" step="50" max="1000">
+        </p>
+        <input type="checkbox" name="agre" id="agre">
+        <label for="agre">I agred on terms and ciditions</label>
+        <p>
+            <label for="requsts">You want to Order......</label>
+            <br>
+            <textarea id="requsts" name="Order" rows="5" cols="40"
+                placeholder="write what you wish to order"></textarea>
+        </p>
+        <p>
+            <label for="number">Mobil number</label>
+            <input id="number" name="mobil num" type="number" min="10" required>
+        </p>
+        <p>
+            <label for="email">Enter your email</label>
+            <input id=email name="email" type="email" required>
+        </p>
+        <p>
+            <label for="fist">Are You Sure to Order Above Items</label>
+            <input type="text" name="fist" id="fist" required minlength="2" maxlength="3" placeholder="YES/NO">
+            <!-- required will be is to make commpalsiry to fill -->
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

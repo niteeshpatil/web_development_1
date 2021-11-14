@@ -1,0 +1,29 @@
+
+
+span{
+    border: 2px solid red;
+    padding: 2px;
+    display:block;
+    margin:5px;
+    display: inline;
+    background-color: silver;
+}
+
+h1{
+    border: 2px soli green;
+    padding: 2px;
+    display:block;
+    margin:5px;
+    display: inline;
+    background-color: silver;
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color:hotpink;
+    border: solid greenyellow 2px;
+    display:inline-block;
+    margin: 50px;
+
+}

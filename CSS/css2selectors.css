@@ -1,0 +1,97 @@
+body{
+    background-color: #f1faee;
+    display: inline;
+}
+button{
+    font-size: 30px;
+    background-color:#a8dadc;
+    padding:0px 10px;
+    /* vetical & horizontal */
+}
+h1,h2{
+    color: #1d3557;
+    padding: 5px;
+    margin: 10px;
+}
+#signup{
+    background-color: #1d3557;
+    color:#f1faee;
+    }
+ 
+span{
+    color:#457b9d;
+}
+.tag{
+    background-color:#e63946;
+    color:#f1faee;
+    font: size 16px;
+}
+.post a{
+    color:#457b9d;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a{
+    color:#ef476f;
+}
+h2 + button{
+   font-size:20px;
+   background-color:#74c69d;
+}
+footer > a{
+    color:#cdb4db ;
+} 
+
+input[type="password"]{
+    color:#fb5607;
+}
+/* to change color on clik */
+button:hover{
+    background-color:#e500a4;
+    color: bisque;
+
+}
+ a:hover{
+     text-decoration: black;
+ }
+  button:active{
+    color:#6a00f4 !important;
+     
+ }
+ .post :nth-of-type(2n){
+     background-color:#fff1e6 ;
+ }
+ h2::first-letter{
+     font-size:xx-large;
+ }
+ p::first-line{
+     color:#ff8500 ;
+ }
+ ::selection{
+    background-color: #64dfdf;
+ }
+ /* https://specificity.keegan.st/ */
+
+ div{
+     height:auto;
+     width: auto;
+     background-color:#9bf6ff ;
+ }
+ h1{
+     border: coral;
+     border-style: dashed;
+     width: 200px;
+     border-inline-start-width: 1px;
+     border-width: 2px; 
+     border-radius: 20px;
+
+     
+     /*or*/
+     /* border-width:200px;
+     border-radius: 10px;
+     border-style: dotted;
+     border: coral;
+     border-inline-start-width: 1px; */
+      
+      
+ }
